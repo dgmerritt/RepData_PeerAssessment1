@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle: \"RepData_Activity\"\nauthor: \"DG Merritt\"\ndate: \"Sunday, December 14, 2014\"\noutput: html_document\n---\n\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.\n\nWhen you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n```{r library, echo=FALSE}\nlibrary(\"ggplot2\")\n```\n\n## Unzip and Format CSV Data\n\n```{r unzip}\nactdata <- unzip(\"activity.zip\")\nacttab <- read.csv2(actdata, sep=\",\", header=TRUE)\n```\n\nTotal Steps, Grouped by Date\n\n```{r summation}\nsumsteps <- aggregate(steps~date, data=acttab, FUN=\"sum\")\n```\n Create histogram of Total Steps per Day\n```{r plotting}\nggplot(sumsteps, aes(x=date, y=steps)) + geom_bar(stat=\"identity\",colour=\"red\")+theme(axis.text.x = element_text(angle=90, hjust = 1)) + ggtitle(\"Samsung Biometric Data\\n Steps Per Day\")\n\n```\n\nMedian Steps Per Day\n```{r median}\nmedsteps <- median(sumsteps$steps)\nmeansteps <- mean(sumsteps$steps)\nView(medsteps)\nView(meansteps)\n```\n Time Series Analysis: Avg Number of Steps per Daily Interval \n \n```{r diurnal pattern}\ndiurnal_ts <- ts(acttab, frequency=288)\ndiurnalpattern <- aggregate(diurnal_ts[,1],by=list(diurnal_ts[,3]), FUN=mean)\nplot(diurnalpattern, type=\"b\", pch=19, main=\"Diurnal Activity Pattern\\n Average Steps Per Day Segment\", xlab=\"Day Segment (daily interval)\",ylab=\"number of steps\" )\n```\n\n",
+    "created" : 1418594939099.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "545491231",
+    "id" : "7C397C98",
+    "lastKnownWriteTime" : 1418654600,
+    "path" : "~/GitHub/RepData_PeerAssessment1/PA1_template_edit.rmd",
+    "project_path" : "PA1_template_edit.rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

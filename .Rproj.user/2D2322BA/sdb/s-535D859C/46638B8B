@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1418600497845.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "46638B8B",
+    "lastKnownWriteTime" : 21392300099829876,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "dailypattern",
+        "contentUrl" : "content?title=dailypattern&file=ae060059a085421398556a7cc36d4ae3.htm",
+        "displayedObservations" : 61,
+        "displayedVariables" : 1,
+        "totalObservations" : 61,
+        "variables" : 1
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1418594204144.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BE378F8",
+    "lastKnownWriteTime" : 21392300099829876,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "acttab",
+        "contentUrl" : "content?title=acttab&file=6c1fcb22c27b43f68069c4e68fc9e2d0.htm",
+        "displayedObservations" : "1000",
+        "displayedVariables" : 1,
+        "totalObservations" : "17568",
+        "variables" : "3"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

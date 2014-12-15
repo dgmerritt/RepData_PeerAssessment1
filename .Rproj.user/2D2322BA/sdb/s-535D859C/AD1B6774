@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1418599688598.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "AD1B6774",
+    "lastKnownWriteTime" : 7741240723082584096,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "test_ts",
+        "contentUrl" : "content?title=test_ts&file=9975b1b9ad3740b3b1d915a070927794.htm",
+        "displayedObservations" : 1000,
+        "displayedVariables" : 3,
+        "totalObservations" : 17568,
+        "variables" : 3
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

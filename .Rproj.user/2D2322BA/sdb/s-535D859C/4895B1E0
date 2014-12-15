@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1418594834131.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4895B1E0",
+    "lastKnownWriteTime" : 21392300099829876,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "sumsteps",
+        "contentUrl" : "content?title=sumsteps&file=d667c6cc9ace42c1b55c5c9696438713.htm",
+        "displayedObservations" : 53,
+        "displayedVariables" : 2,
+        "totalObservations" : 53,
+        "variables" : 2
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
